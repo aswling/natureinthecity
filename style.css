@@ -14,7 +14,7 @@ body {
 
 .container {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
@@ -40,6 +40,7 @@ body {
 
 p {
 	font-family: Open Sans, sans-serif;
+	font-size: 20px;
 	text-align:left;
 	display:inline-block;
 	width:600px;
@@ -106,9 +107,15 @@ a {
 	text-decoration: none;
 }
 
-.info {
+.info p {
 	position: relative;
 	text-align: center;
 	float: center;
-	margin-left: 30%;
+}
+
+.home {
+	position: relative;
+	text-align: center;
+	float: center;
+	font-size: 16px;
 }
