@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+	<title>Nature in the City</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<div class="container">
+	<a href="index.html"><h1>Nature in the City</h1></a>
+	<p>Click the play button for our remix of audio samples based on the theme of "nature in the city." Then click any of the buttons below the volume bar to hear each sound we used in the remixed audio.</p>
+	
+	<!--MAIN-->
+	<audio id="main">
+		<source src="main.mp3" type="audio/mp3">
+	</audio>
+	<div id="play-main">
+		<img src="play.png" id="play-btn">
+	</div>
+	<div id="progress-bar">
+		<div id="progress"></div>
+	</div>
+	<input type="range" id="volume" value="100">
+
+	<div class="first-column">
+		<!--TALKING-->
+		<audio id="talking" controls loop>
+			<source src="talking.mp3" type="audio/mp3">
+		</audio>
+		<div id="play-talking">
+			<img src="talkingOFF.png" id="talking-btn">
+		</div>
+
+		<!--PAGES-->
+		<audio id="pages" controls loop>
+			<source src="pages.mp3" type="audio/mp3">
+		</audio>
+		<div id="play-pages">
+			<img src="pagesOFF.png" id="pages-btn">
+		</div>
+		
+		<!--HORN-->
+		<audio id="horn" controls loop>
+			<source src="horn.mp3" type="audio/mp3">
+		</audio>
+		<div id="play-horn">
+			<img src="hornOFF.png" id="horn-btn">
+		</div>
+
+		<!--RAIN-->
+		<audio id="rain" controls loop>
+			<source src="rain.mp3" type="audio/mp3">
+		</audio>
+		<div id="play-rain">
+			<img src="rainOFF.png" id="rain-btn">
+		</div>
+	</div>
+
+	<div class="second-column">
+		<!--LEAVES-->
+		<audio id="leaves" controls loop>
+			<source src="leaves.mp3" type="audio/mp3">
+		</audio>
+		<div id="play-leaves">
+			<img src="leavesOFF.png" id="leaves-btn">
+		</div>
+
+		<!--SEWER-->
+		<audio id="sewer" controls loop>
+			<source src="sewer.mp3" type="audio/mp3">
+		</audio>
+		<div id="play-sewer">
+			<img src="sewerOFF.png" id="sewer-btn">
+		</div>
+
+		<!--WALKING-->
+		<audio id="walking" controls loop>
+			<source src="walking.mp3" type="audio/mp3">
+		</audio>
+		<div id="play-walking">
+			<img src="walkingOFF.png" id="walking-btn">
+		</div>
+
+		<!--BIRDS-->
+		<audio id="birds" controls loop>
+			<source src="birds.mp3" type="audio/mp3">
+		</audio>
+		<div id="play-birds">
+			<img src="birdsOFF.png" id="birds-btn">
+		</div>
+	</div>
+
+	<div class="info">
+		<p>Made by Alex Ling, April Sun, Sam Hu</p>
+	</div>
+
+<script src="jquery-3.1.0.min.js"></script>
+<script src="audio.js"></script>
+</div>
+</body>
+</html>
