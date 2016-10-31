@@ -14,6 +14,25 @@ var audioSewer = document.querySelector('#sewer');
 var audioWalking = document.querySelector('#walking');
 var audioBirds = document.querySelector('#birds');
 
+var audio = new Array()
+    function preload() {
+        for (i = 0; i < preload.arguments.length; i++) {
+            audio[i] = new Audio()
+            audio[i].src = preload.arguments[i]
+        }
+    }
+    preload(
+        "main.mp3",
+        "talking.mp3",
+        "pages.mp3",
+        "horn.mp3",
+        "rain.mp3",
+        "leaves.mp3",
+        "sewer.mp3",
+        "walking.mp3",
+        "birds.mp3"
+    )
+
 playMain.addEventListener('click', function() {
 	if (audioMain.paused) {
 		audioMain.play();
