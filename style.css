@@ -20,23 +20,29 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-.first-column {
-	float: left;
-	position: relative;
-	padding-top: 10px;
+.first-row img {
+	position:relative;
+	display: inline;
+	float:left;
+	padding:15px;
+	width: 700px;
+	z-index: 1;
 }
 
-.second-column {
-	float: right;
-	position: relative;
-	padding-top: 10px;
+.second-row img {
+	position:relative;
+	display: inline;
+	float:right;
+	padding:15px;
+	width: 700px;
+	z-index: 1;
 }
 
 p {
 	font-family: Open Sans, sans-serif;
 	text-align:left;
 	display:inline-block;
-	width:700px;
+	width:600px;
 	margin-top:auto;
 }
 
@@ -101,8 +107,8 @@ a {
 }
 
 .info {
-	text-align: right;
-	position: fixed;
-	margin-top: 200px;
-	margin-left: 60%;
+	position: relative;
+	text-align: center;
+	float: center;
+	margin-left: 30%;
 }
