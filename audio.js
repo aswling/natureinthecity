@@ -30,7 +30,15 @@ var audio = new Array()
         "leaves.mp3",
         "sewer.mp3",
         "walking.mp3",
-        "birds.mp3"
+        "birds.mp3",
+        "talkingON.png",
+        "pagesON.png",
+        "hornON.png",
+        "rainON.png",
+        "leavesON.png",
+        "sewerON.png",
+        "walkingON.png",
+        "birdsON.png"
     )
 
 playMain.addEventListener('click', function() {
